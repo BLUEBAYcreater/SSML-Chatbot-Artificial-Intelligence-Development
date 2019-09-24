@@ -1,0 +1,47 @@
+{
+  "id": "4d5f0115-5865-47c2-b0e0-32bf26b3e8c4",
+  "name": "SSML.8",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": "ordinal:  The following example is spoken as \"First\":\n\n<speak>\n  <say-as interpret-as=\"ordinal\">1</say-as>\n</speak> (Please say \"Step 9\")"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "bd41c9f3-c358-4e38-bdd6-ba19976d0ab7",
+      "data": [
+        {
+          "text": "Step 8",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "templates": []
+}
