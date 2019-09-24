@@ -1,0 +1,66 @@
+{
+  "id": "68305e64-4416-4196-9f8d-140688e6c26c",
+  "name": "SSML.16",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "cbfb5b07-a7d1-4083-8eea-4d1a3f12c0f1",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": "The following example is spoken as \"September tenth, nineteen sixty\":\n\n<speak>\n  <say-as interpret-as=\"date\" format=\"dmy\" detail=\"2\">\n    10-9-1960\n  </say-as>\n</speak>\n  (  Please say Step 17)"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "58c89846-fc7a-4772-a673-e2274e674b38",
+      "data": [
+        {
+          "text": "Step ",
+          "userDefined": false
+        },
+        {
+          "text": "16",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "templates": []
+}
