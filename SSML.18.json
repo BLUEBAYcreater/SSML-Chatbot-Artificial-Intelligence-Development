@@ -1,0 +1,66 @@
+{
+  "id": "eb9ced17-7f4c-46d8-876d-09b58e84cdaa",
+  "name": "SSML.18",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "6f9d36ab-eaae-4994-8b23-afb2f83b03cd",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": "Audio                                       <speak>\n  <audio src=\"cat_purr_close.ogg\">\n    <desc>a cat purring</desc>\n    PURR (sound didn't load)\n  </audio>\n</speak>  (Please say Step 19)"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "4cc54c30-3e8a-471b-9439-1b2c4744d006",
+      "data": [
+        {
+          "text": "Step ",
+          "userDefined": false
+        },
+        {
+          "text": "18",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "templates": []
+}
