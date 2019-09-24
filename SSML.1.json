@@ -1,0 +1,86 @@
+{
+  "id": "9f55899e-4b43-4e35-b9f8-63a00c0c217b",
+  "name": "SSML.1",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": "Basic : SSML is a markup language that provides a standard way to mark up text for the generation of synthetic speech.    ( Please  Say \"Step 2\")"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "3c660756-278c-4371-8558-054d723eb9a4",
+      "data": [
+        {
+          "text": "i want to learn ssml",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b4c839ad-05e5-4746-8f71-d1af6a33d4ef",
+      "data": [
+        {
+          "text": "teach me ssml",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9d1e7d7c-23de-460f-94cf-b512feea5fa8",
+      "data": [
+        {
+          "text": "START SSML",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fd374a64-a7c2-4381-98ec-7712498ffc94",
+      "data": [
+        {
+          "text": "Begin SSML",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "templates": []
+}
