@@ -1,0 +1,47 @@
+{
+  "id": "654edcd2-3702-4a51-b7e1-8942916e4397",
+  "name": "SSML.7",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": "cardinal: The following example is spoken as \" Three hundred and forty five\" (for US English) or \" Three hundred and forty five\"(for UK English)\":\n\n<speak>\n  <say-as interpret-as=\"cardinal\">345</say-as>\n</speak>  (Please say \"Step 8\")"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "169b137a-f13f-4f73-b0b5-087b08c79ff4",
+      "data": [
+        {
+          "text": "Step 7",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "templates": []
+}
