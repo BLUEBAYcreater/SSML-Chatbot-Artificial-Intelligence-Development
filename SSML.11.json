@@ -1,0 +1,47 @@
+{
+  "id": "30c3fa8d-45bf-4bb5-be61-4d572f214db0",
+  "name": "SSML.11",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": "expletive or bleep:   The following example comes out as a beep, as though it has been censored:\n\n<speak>\n  <say-as interpret-as=\"expletive\">censor this</say-as>\n</speak> ( Please say \"Step 12\")"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "7b42f163-d7ac-4b31-b839-fc03bf3725a7",
+      "data": [
+        {
+          "text": "Step 11",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "templates": []
+}
