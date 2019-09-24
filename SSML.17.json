@@ -1,0 +1,66 @@
+{
+  "id": "cd85bd73-7ee4-4f16-a814-6a8acf983a55",
+  "name": "SSML.17",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "0f50801f-b0e0-42fe-a688-97c404fdbe15",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": "time\nThe following example is spoken as \"Two thirty P.M.\":\n\n<speak>\n  <say-as interpret-as=\"time\" format=\"hms12\">2:30pm</say-as>\n</speak>     (Please say step 17)"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "ab5bd063-bd1f-4252-a564-25fe56c747fd",
+      "data": [
+        {
+          "text": "Step ",
+          "userDefined": false
+        },
+        {
+          "text": "17",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "templates": []
+}
