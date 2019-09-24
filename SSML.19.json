@@ -1,0 +1,60 @@
+{
+  "id": "88d60d60-86e4-4474-a463-04dadecdaf4a",
+  "name": "SSML.19",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": "<p>,<s>                                                                              Sentence and paragraph elements.                                                <p><s>This is sentence one.</s><s>This is sentence two.</s></p>    (Please say step 20)"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "830fad16-155e-45aa-80bc-d099a227269b",
+      "data": [
+        {
+          "text": "step 19",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f618a1bb-c11d-475e-b511-b371c42606a1",
+      "data": [
+        {
+          "text": "STEP 19step 19",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "templates": []
+}
