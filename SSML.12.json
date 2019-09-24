@@ -1,0 +1,85 @@
+{
+  "id": "9f76dd20-cd92-4fc6-8985-a584940f2549",
+  "name": "SSML.12",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "71d91c7b-30ea-4c0b-9386-1f007d207c72",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": "unit\nConverts units to singular or plural depending on the number. The following example is spoken as \"10 feet\":\n\n<speak>\n  <say-as interpret-as=\"unit\">10 foot</say-as>\n</speak>   (Please say STEP 13)"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "b5f347ba-ee68-4159-af36-8fa35c43c9e0",
+      "data": [
+        {
+          "text": "open step ",
+          "userDefined": false
+        },
+        {
+          "text": "12",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2300fa5e-8f4e-4a69-9888-eacfa836dea8",
+      "data": [
+        {
+          "text": "Step ",
+          "userDefined": false
+        },
+        {
+          "text": "12",
+          "alias": "number",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "templates": []
+}
