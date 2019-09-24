@@ -1,0 +1,47 @@
+{
+  "id": "ea0a5b26-6a11-432c-9bfe-75515f38bc7a",
+  "name": "SSML.9",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": "characters:   The following example is spoken as \"S S M L\":\n\n<speak>\n  <say-as interpret-as=\"characters\">SSML</say-as>\n</speak> (Please say \"Step 10\")"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "d235da84-8862-42fb-bb69-cbfe8845b749",
+      "data": [
+        {
+          "text": "Step 9",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "templates": []
+}
