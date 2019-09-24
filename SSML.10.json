@@ -1,0 +1,47 @@
+{
+  "id": "b9e8d360-6a33-4c43-99e7-07cdd3bb6849",
+  "name": "SSML.10",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": "fraction:  The following example is spoken as \"ten and a half\":\n\n<speak>\n  <say-as interpret-as=\"fraction\">10+1/2</say-as>\n</speak>  (Please say \"Step 11\")"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "15c8eb9d-ede9-4c15-bdd9-5dcdc184f77c",
+      "data": [
+        {
+          "text": "Step 10",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "templates": []
+}
