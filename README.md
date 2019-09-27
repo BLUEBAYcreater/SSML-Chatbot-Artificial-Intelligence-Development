@@ -1,5 +1,7 @@
-# SSML-Artificial-Assistant
-The first bot that teachs SSML(Speech Synthesis Markup Language) with  puzzle of ssml, Trivia of ssml, examples of ssml, Fast Cards and more
+# SSML-Artificial-Assistant and Machine Learning
+The first bot that teachs SSML(Speech Synthesis Markup Language) with  puzzle of ssml, Trivia of ssml, examples of ssml, Fast Cards and more.
+
+The SSML Bot ** Teaches you Artificial Intelligence(AI) Markup Language for Google Assistant or Amazon Alexa.**
 
 Yes, its true. 
 **WE MADE THE FIRST ARTIFICIAL INTELLIGENCE THAT TEACHES SSML(SPEECH SYNTHESIS MARKUP LANGUAGE).**
