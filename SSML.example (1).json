@@ -1,0 +1,65 @@
+{
+  "id": "75dc9e18-665a-4a99-88ca-4eaba2a5cbec",
+  "name": "SSML.example",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": [
+            "Example :<speak>\n  <audio src=\"cat_purr_close.ogg\">\n    <desc>a cat purring</desc>\n    PURR (sound didn't load)\n  </audio>\n</speak>",
+            "**function saySSML(conv) {\n  const ssml = '<speak>' +\n    'Here are <say-as interpret-as=\"characters\">SSML</say-as> samples. ' +\n    'I can pause <break time=\"3\" />. ' +\n    'I can play a sound <audio src=\"https://www.example.com/MY_WAVE_FILE.wav\">your wave file</audio>. ' +\n    'I can speak in cardinals. Your position is <say-as interpret-as=\"cardinal\">10</say-as> in line. ' +\n    'Or I can speak in ordinals. You are <say-as interpret-as=\"ordinal\">10</say-as> in line. ' +\n    'Or I can even speak in digits. Your position in line is <say-as interpret-as=\"digits\">10</say-as>. ' +\n    'I can also substitute phrases, like the <sub alias=\"World Wide Web Consortium\">W3C</sub>. ' +\n    'Finally, I can speak a paragraph with two sentences. ' +\n    '<p><s>This is sentence one.</s><s>This is sentence two.</s></p>' +\n    '</speak>';\n  conv.ask(ssml);\n}",
+            "**<speak>\n  my SSML content\n</speak>",
+            "**<speak>\n  Step 1, take a deep breath. <break time=\"200ms\"/>\n  Step 2, exhale.\n  Step 3, take a deep breath again. <break strength=\"weak\"/>\n  Step 4, exhale.\n</speak>",
+            "*<speak>\n  <say-as interpret-as=\"cardinal\">12345</say-as>\n</speak>",
+            "*<speak>\n  <say-as interpret-as=\"characters\">can</say-as>\n</speak>",
+            "**<speak>\n  <say-as interpret-as=\"fraction\">5+1/2</say-as>\n</speak>",
+            "**<speak>\n  <say-as interpret-as=\"expletive\">censor this</say-as>\n</speak>",
+            "**<speak>\n  <say-as interpret-as=\"unit\">10 foot</say-as>\n</speak>",
+            "**<speak>\n  <say-as interpret-as=\"verbatim\">abcdefg</say-as>\n</speak>",
+            "**<speak>\n    Here is a number <w role=\"amazon:VBD\">read</w> \n    as a cardinal number: \n    <say-as interpret-as=\"cardinal\">12345</say-as>. \n    Here is a word spelled out: \n    <say-as interpret-as=\"spell-out\">hello</say-as>. \n</speak>",
+            "**\"<speak>\n        Here is a number <w role='amazon:VBD'>read</w> \n        as a cardinal number: \n        <say-as interpret-as='cardinal'>12345</say-as>. \n        Here is a word spelled out: \n        <say-as interpret-as='spell-out'>hello</say-as>. \n    </speak>\"",
+            "**<speak>\n    I want to tell you a secret. \n    <amazon:effect name=\"whispered\">I am not a real human.</amazon:effect>.\n    Can you believe it?\n</speak>",
+            "**<speak>\n    Welcome to Ride Hailer. \n    <audio src=\"soundbank://soundlibrary/transportation/amzn_sfx_car_accelerate_01\" /> \n    You can order a ride, or request a fare estimate. \n    Which will it be?\n</speak>",
+            "**<speak>\n    I already told you I \n    <emphasis level=\"strong\">really like</emphasis> \n    that person.\n</speak>"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "73a022f6-e947-4acd-99d9-bb59c59d0302",
+      "data": [
+        {
+          "text": "SSML examples",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}
